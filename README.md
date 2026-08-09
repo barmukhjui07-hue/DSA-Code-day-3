@@ -15,3 +15,9 @@ Daily tracking of DSA problems, C++ implementation, and core concepts.
 ~~ 💡 Key Takeaways-
 * **Early Exits Save Iterations:** In the sum program, breaking at `i == 10` stops the loop immediately, preventing unnecessary execution up to `n = 25`.
 * **$\sqrt{N}$ Primality Check:** If a number $N$ has a factor, at least one factor must be less than or equal to $\sqrt{N}$. Stopping the loop at i drastically reduces the number of operations for large values of N.
+
+~~ ⚙️ How to Run-
+1. Open the terminal in your code directory.
+2. Compile any file using `g++`:
+   ```bash
+   g++ Basics/Day3_c_PrimeCheck.cpp -o PrimeCheck
