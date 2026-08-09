@@ -1,2 +1,3 @@
-# DSA-Code-day-3
-Control Flow Mechanics &amp; Optimized Prime Verification in C++
+~~ 🚀 Data Structures & Algorithms Showcase:
+Daily tracking of DSA problems, C++ implementation, and core concepts.
+
