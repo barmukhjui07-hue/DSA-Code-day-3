@@ -11,3 +11,7 @@ Daily tracking of DSA problems, C++ implementation, and core concepts.
 * Controlling program flow using `while` and `for` loops.
 * Short-circuiting redundant iterations using `break`.
 * Optimizing mathematical check loops from (N) time complexity down to sqrt{N}.
+
+~~ 💡 Key Takeaways-
+* **Early Exits Save Iterations:** In the sum program, breaking at `i == 10` stops the loop immediately, preventing unnecessary execution up to `n = 25`.
+* **$\sqrt{N}$ Primality Check:** If a number $N$ has a factor, at least one factor must be less than or equal to $\sqrt{N}$. Stopping the loop at i drastically reduces the number of operations for large values of N.
